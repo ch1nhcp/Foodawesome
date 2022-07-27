@@ -4,7 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, add new file .env and add REACT_APP_API_KEY variable (API key from
+[https://spoonacular.com/](https://spoonacular.com/))
+
+
+e.g: 
+### REACT_APP_API_KEY = 57ef90549a2142188d83bfd04cd50f69
+
+Then, you can run:
 
 ### `npm start`
 
