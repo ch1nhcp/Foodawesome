@@ -15,6 +15,7 @@ function App() {
         <Search />
         <Category />
         <Pages />
+        <Footer>Made by Chinhcp with ❤️</Footer>
       </BrowserRouter>
     </div>
   );
@@ -24,6 +25,7 @@ const Logo = styled(Link)`
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 900;
+  
 `;
 
 const Nav = styled.div`
@@ -34,6 +36,12 @@ const Nav = styled.div`
   svg {
     font-size: 2rem;
   }
+`;
+
+const Footer = styled.div`
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem;
 `;
 
 export default App;
